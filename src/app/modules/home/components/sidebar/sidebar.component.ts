@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class SidebarComponent {
 
+  menuSelected = 'Início';
+
+  buttonClick(button: string){
+    this.menuSelected = button;
+  }
+
 }

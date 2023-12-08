@@ -1,1 +1,58 @@
-<p>sidebar works!</p>
+<div class="main">
+    <section class="primary-topics">
+        <app-left-button 
+        [descricao]="'Início'" 
+        [selected]="menuSelected === 'Início'" 
+        (click)="buttonClick('Início')"   
+        >
+            <span class="material-symbols-outlined">home</span>
+        </app-left-button>
+
+
+        <app-left-button 
+        [descricao]="'Sobre mim'" 
+        [selected]="menuSelected === 'Sobre mim'" 
+        (click)="buttonClick('Sobre mim')"  
+        >
+            <span class="material-symbols-outlined">search</span>
+        </app-left-button>
+
+
+        <app-left-button 
+        [descricao]="'Projetos'"
+        [selected]="menuSelected === 'Projetos'" 
+        (click)="buttonClick('Projetos')"
+        >
+            <img src="../../../../../assets/images/biblioteca-icon.png" alt="">      
+        </app-left-button>
+        
+     </section>
+    
+    
+    <section class="second-topics">
+        <app-left-button 
+        [descricao]="'Linkedin'" 
+        [selected]="menuSelected === 'Linkedin'" 
+        (click)="buttonClick('Linkedin')"
+        >
+            <img id="linkedin-img" src="../../../../../assets/images/icon-linkedin.svg" alt="">
+        </app-left-button>
+
+         <app-left-button 
+         [descricao]="'Github'" 
+         [selected]="menuSelected === 'Github'" 
+         (click)="buttonClick('Github')"
+         >
+            <img id="github-img" src="../../../../../assets/images/github-mark-white.svg" alt="">
+        </app-left-button>
+
+         <app-left-button 
+         [descricao]="'Musicas Curtidas'"
+         [selected]="menuSelected === 'Musicas Curtidas'" 
+         (click)="buttonClick('Musicas Curtidas')"
+         >
+            <img id="linked-songs-img" src="../../../../../assets/images/Liked-Songs.svg" alt="">
+        </app-left-button>
+
+    </section>
+</div>

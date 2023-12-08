@@ -1,0 +1,55 @@
+@import '../../../../dist/scss/variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.primary-topics{
+    margin-bottom: 20%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.second-topics{
+    flex-direction: column;
+    display: flex;
+}
+
+ 
+span, img{
+    color: $unselected-color;
+    margin-right: 5%;
+ 
+}
+
+#linkedin-img{
+    background-color: $white-color;
+ 
+    width: 24px;
+    border-radius: 4px;
+}
+
+#github-img{
+    width: 24px;
+}
+
+#linked-songs-img{
+    width: 24px;
+}
+ 
+
+.main{
+    background-color: black;
+    width: 20vw;
+    height: 100vh;
+}
+
+
+
+
+ 

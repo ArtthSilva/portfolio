@@ -1,0 +1,26 @@
+@import '../../../../dist/scss/variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&family=Montserrat:wght@500&display=swap');
+
+button{
+    background-color: transparent;
+    border: none;
+    display: flex;
+    margin: 2% 2% 2% 5%;
+    width: 90%;
+    cursor: pointer; 
+
+    &.selected{
+        span{
+            color: white;
+        }
+    }
+}
+
+span{
+    color: $unselected-color;
+    width: 20vw;
+    text-align: left;
+    padding-top: 5px;
+    font-family: 'DM Sans', sans-serif;
+
+}

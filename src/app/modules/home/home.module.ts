@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { BrowseToTopicsComponent } from './components/browse-to-topics/browse-to-topics.component';
 import { HomeComponent } from './pages/home/home.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { LeftButtonComponent } from './components/left-button/left-button.component';
 
 
 
@@ -10,7 +11,8 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
   declarations: [
     BrowseToTopicsComponent,
     HomeComponent,
-    SidebarComponent
+    SidebarComponent,
+    LeftButtonComponent
   ],
   imports: [
     CommonModule

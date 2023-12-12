@@ -4,6 +4,7 @@ import { BrowseToTopicsComponent } from './components/browse-to-topics/browse-to
 import { HomeComponent } from './pages/home/home.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { LeftButtonComponent } from './components/left-button/left-button.component';
+import { MusicBarComponent } from './components/music-bar/music-bar.component';
 
 
 
@@ -12,7 +13,8 @@ import { LeftButtonComponent } from './components/left-button/left-button.compon
     BrowseToTopicsComponent,
     HomeComponent,
     SidebarComponent,
-    LeftButtonComponent
+    LeftButtonComponent,
+    MusicBarComponent
   ],
   imports: [
     CommonModule

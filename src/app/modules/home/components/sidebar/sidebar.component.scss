@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&family=Montserrat:wght@500&display=swap');
 
 * {
+ 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -20,7 +21,6 @@
     display: flex;
 }
 
- 
 span, img{
     color: $unselected-color;
     margin-right: 5%;
@@ -28,8 +28,7 @@ span, img{
 }
 
 #linkedin-img{
-    background-color: $white-color;
- 
+    background-color: $white-color; 
     width: 24px;
     border-radius: 4px;
 }
@@ -50,6 +49,26 @@ span, img{
 }
 
 
+button{
+    padding: 7px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    margin: 1.5% 1.5% 1.5% 5%;
+    width: 90%;
+    cursor: pointer; 
+   
 
 
- 
+    span{
+        color: $unselected-color;
+        width: 20vw;
+        text-align: left;
+        padding-top: 5px;
+        font-family: 'DM Sans', sans-serif;
+        font-size: .9rem;
+        
+    }
+}
+

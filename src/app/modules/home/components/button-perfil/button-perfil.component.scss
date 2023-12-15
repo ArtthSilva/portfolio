@@ -1,0 +1,30 @@
+@import '../../../../dist/scss/variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&family=Montserrat:wght@500&display=swap');
+
+
+button{
+    border: none;
+    border-radius: 40px;
+    background: rgba(0, 0, 0, 0.80);
+    align-items: center;
+    text-align: center;
+    display: inline-flex;
+    padding: 3px 12px 3px 3px;
+    align-items: center;
+    gap: 11px;
+    display: flex;
+    margin-top: 7%;
+    margin-bottom: 3%;
+ 
+    img{
+        width: 34px;
+        border-radius: 50%;
+
+    }
+}
+
+span{
+    font-family: 'DM Sans', sans-serif;
+    font-size: .7rem;
+    color: $white-color;
+}

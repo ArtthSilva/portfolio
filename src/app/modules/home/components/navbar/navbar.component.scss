@@ -3,4 +3,9 @@
     background-color: rgba(0, 0, 0, 0.027); 
     display: flex;
     backdrop-filter: blur(10px);
+    justify-content: space-between;
+}
+
+.perfil-button{
+    margin-right: 5%;
 }

@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+ 
 
 }
 
@@ -21,6 +22,7 @@
    
 
 .music-player {
+    left: 0;
     --primary-color: #ddd;
     --secondary-color: #999;
     --green-color: #2d5;

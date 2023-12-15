@@ -5,6 +5,9 @@ import { HomeComponent } from './pages/home/home.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { LeftButtonComponent } from './components/left-button/left-button.component';
 import { MusicBarComponent } from './components/music-bar/music-bar.component';
+import { HomePageComponent } from './components/home-page/home-page.component';
+import { AppRoutingModule } from 'src/app/app-routing.module';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 
 
@@ -14,10 +17,13 @@ import { MusicBarComponent } from './components/music-bar/music-bar.component';
     HomeComponent,
     SidebarComponent,
     LeftButtonComponent,
-    MusicBarComponent
+    MusicBarComponent,
+    HomePageComponent,
+    NavbarComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    AppRoutingModule
   ]
 })
 export class HomeModule { }

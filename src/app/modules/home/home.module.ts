@@ -9,7 +9,7 @@ import { HomePageComponent } from './components/home-page/home-page.component';
 import { AppRoutingModule } from 'src/app/app-routing.module';
 import { NavbarComponent } from './components/navbar/navbar.component';
 
-import { LucideAngularModule, ChevronLeft,ChevronRight } from 'lucide-angular';
+import { LucideAngularModule, ChevronLeft,ChevronRight, Home, Search } from 'lucide-angular';
 import { ButtonPerfilComponent } from './components/button-perfil/button-perfil.component';
 
 
@@ -29,6 +29,8 @@ import { ButtonPerfilComponent } from './components/button-perfil/button-perfil.
     AppRoutingModule,
     LucideAngularModule.pick({ ChevronLeft }),
     LucideAngularModule.pick({ ChevronRight }),
+    LucideAngularModule.pick({ Home }),
+    LucideAngularModule.pick({ Search })
    ]
 })
 export class HomeModule { }

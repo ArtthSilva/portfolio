@@ -21,7 +21,7 @@
     display: flex;
 }
 
-span, img{
+.icon,span, img{
     color: $unselected-color;
     margin-right: 5%;
  
@@ -61,7 +61,7 @@ button{
    
 
 
-    span{
+    .icon, span{
         color: $unselected-color;
         width: 20vw;
         text-align: left;

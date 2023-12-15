@@ -5,6 +5,8 @@ import { Component } from '@angular/core';
   templateUrl: './music-bar.component.html',
   styleUrls: ['./music-bar.component.scss']
 })
+
 export class MusicBarComponent {
 
+   
 }

@@ -9,6 +9,8 @@ import { HomePageComponent } from './components/home-page/home-page.component';
 import { AppRoutingModule } from 'src/app/app-routing.module';
 import { NavbarComponent } from './components/navbar/navbar.component';
 
+import { LucideAngularModule, ChevronLeft,ChevronRight } from 'lucide-angular';
+import { ButtonPerfilComponent } from './components/button-perfil/button-perfil.component';
 
 
 @NgModule({
@@ -19,11 +21,14 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     LeftButtonComponent,
     MusicBarComponent,
     HomePageComponent,
-    NavbarComponent
+    NavbarComponent,
+    ButtonPerfilComponent
   ],
   imports: [
     CommonModule,
-    AppRoutingModule
-  ]
+    AppRoutingModule,
+    LucideAngularModule.pick({ ChevronLeft }),
+    LucideAngularModule.pick({ ChevronRight }),
+   ]
 })
 export class HomeModule { }

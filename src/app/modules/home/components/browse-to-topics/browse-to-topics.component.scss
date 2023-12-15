@@ -1,0 +1,26 @@
+*{
+    display: flex;
+}
+
+ 
+
+.voltar-button, .ir-button{
+    display: inline-block;
+    margin-top: 15%;
+    margin-left: 15%;
+    margin-bottom: 15%;
+    padding: 4px;
+    background-color: rgba(10,23,55,0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 50%;
+    color: white;
+
+    cursor: pointer;
+    border: none; 
+    
+   
+}
+
+.voltar-button{
+    margin-left: 25%;
+}

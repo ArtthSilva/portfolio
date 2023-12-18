@@ -3,6 +3,7 @@
 
 
 button{
+    cursor: pointer;
     border: none;
     border-radius: 40px;
     background: rgba(0, 0, 0, 0.80);
@@ -27,4 +28,8 @@ span{
     font-family: 'DM Sans', sans-serif;
     font-size: .7rem;
     color: $white-color;
+}
+
+a{
+    text-decoration: none;
 }

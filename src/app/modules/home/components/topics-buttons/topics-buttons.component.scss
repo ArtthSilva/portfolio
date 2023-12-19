@@ -9,18 +9,53 @@ button{
     background: rgba(0, 0, 0, 0.60);
     align-items: center;
     text-align: center;
-    display: inline-flex;
+    justify-content: space-between;
     align-items: center;
     display: flex;
-    min-width: 20.5vw; 
+    min-width: 20vw;
 }
+
+@media screen and (max-width: 600px) {
+    button {
+     width: 45vw;
  
+    }
+   }
+
+.img-title{
+    align-items: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
  
 span{
     font-family: 'DM Sans', sans-serif;
     font-size: 0.8rem;
     color: $white-color;
-    margin-right: 17%;
- 
+     width: 9vw;
+     margin-left: 0.5vw;
 }
- 
+
+#icon-play{
+    display: none;
+    width: 4.5vw;
+   border: none;
+}
+
+button:hover #icon-play {
+    display: block;
+
+   }
+
+   @media screen and (max-width: 600px) {
+    button:hover #icon-play {
+     width: 10vw; 
+     span{
+        margin-right: 12vw;
+    }
+    }
+
+    
+   }
+   

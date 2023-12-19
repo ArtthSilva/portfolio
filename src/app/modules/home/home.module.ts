@@ -32,7 +32,7 @@ import { TopicsButtonsComponent } from './components/topics-buttons/topics-butto
     LucideAngularModule.pick({ ChevronLeft }),
     LucideAngularModule.pick({ ChevronRight }),
     LucideAngularModule.pick({ Home }),
-    LucideAngularModule.pick({ Search })
+    LucideAngularModule.pick({ Search }),
    ]
 })
 export class HomeModule { }

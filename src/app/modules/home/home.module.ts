@@ -12,6 +12,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { LucideAngularModule, ChevronLeft,ChevronRight, Home, Search } from 'lucide-angular';
 import { ButtonPerfilComponent } from './components/button-perfil/button-perfil.component';
 import { TopicsButtonsComponent } from './components/topics-buttons/topics-buttons.component';
+import { ProjectCardsComponent } from './components/project-cards/project-cards.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { TopicsButtonsComponent } from './components/topics-buttons/topics-butto
     HomePageComponent,
     NavbarComponent,
     ButtonPerfilComponent,
-    TopicsButtonsComponent
+    TopicsButtonsComponent,
+    ProjectCardsComponent
   ],
   imports: [
     CommonModule,

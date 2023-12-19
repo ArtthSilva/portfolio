@@ -1,4 +1,28 @@
 <div class="main">
     <app-navbar></app-navbar>
     <div class="greeting"> {{ status }} </div>
+
+<div class="main-button">
+    <app-topics-buttons class="button"
+    [descricao]="'Sobre mim'"
+    >
+    <img class="img-topic" src="../../../../../assets/images/pagodeira2.svg" alt="">
+</app-topics-buttons>
+    <app-topics-buttons class="button"
+    [descricao]="'Tecnologias'"
+    >
+    <img class="img-topic" src="../../../../../assets/images/top-hits.svg" alt="">
+</app-topics-buttons>
+    <app-topics-buttons class="button"
+    [descricao]="'Social links'"
+    >
+    <img class="img-topic" src="../../../../../assets/images/no-repeat.svg" alt="">
+</app-topics-buttons>
+    <app-topics-buttons class="button"
+    [descricao]="'Musicas Curtidas'"
+    >
+    <img class="img-topic" src="../../../../../assets/images/Liked-Songs.svg" alt="">
+</app-topics-buttons>
+
+</div>
 </div>

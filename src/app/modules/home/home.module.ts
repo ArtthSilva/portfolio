@@ -11,6 +11,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 
 import { LucideAngularModule, ChevronLeft,ChevronRight, Home, Search } from 'lucide-angular';
 import { ButtonPerfilComponent } from './components/button-perfil/button-perfil.component';
+import { TopicsButtonsComponent } from './components/topics-buttons/topics-buttons.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { ButtonPerfilComponent } from './components/button-perfil/button-perfil.
     MusicBarComponent,
     HomePageComponent,
     NavbarComponent,
-    ButtonPerfilComponent
+    ButtonPerfilComponent,
+    TopicsButtonsComponent
   ],
   imports: [
     CommonModule,

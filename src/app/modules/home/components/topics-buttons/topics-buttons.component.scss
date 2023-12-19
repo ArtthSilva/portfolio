@@ -12,12 +12,15 @@ button{
     display: inline-flex;
     align-items: center;
     display: flex;
-    width: 250px; 
+    min-width: 20.5vw; 
 }
-
+ 
+ 
 span{
     font-family: 'DM Sans', sans-serif;
     font-size: 0.8rem;
     color: $white-color;
+    margin-right: 17%;
  
 }
+ 

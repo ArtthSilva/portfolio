@@ -6,13 +6,13 @@ button{
     cursor: pointer;
     border: none;
     border-radius: 6px;
-    background: rgba(0, 0, 0, 0.60);
+    background: rgba(0, 0, 0, 0.65);
     align-items: center;
     text-align: center;
     justify-content: space-between;
     align-items: center;
     display: flex;
-    min-width: 20vw;
+    min-width: 21vw;
 }
 
 @media screen and (max-width: 600px) {
@@ -33,8 +33,9 @@ span{
     font-family: 'DM Sans', sans-serif;
     font-size: 0.8rem;
     color: $white-color;
-     width: 9vw;
-     margin-left: 0.5vw;
+     width: 8vw;
+     margin-left: 1vw;
+     margin-right: 2vw;
 }
 
 #icon-play{
@@ -54,8 +55,6 @@ button:hover #icon-play {
      span{
         margin-right: 12vw;
     }
-    }
-
-    
+    }    
    }
    

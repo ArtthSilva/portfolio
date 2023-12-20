@@ -1,6 +1,10 @@
 @import '../../../../dist/scss/variables.scss';
 @import url(https://db.onlinewebfonts.com/c/961a181da27e7cbc072ec2fb5bbfe2a9?family=Circular+Std+Bold);
 
+*{
+    margin: 0;
+    padding: 0;
+}
 
 button{
     cursor: pointer;
@@ -35,7 +39,7 @@ span{
     color: $white-color;
      width: 9vw;
      margin-right: 1.6vw;
-     margin-left: 1vw;
+ 
 }
 
 #icon-play{

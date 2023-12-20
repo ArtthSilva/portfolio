@@ -1,6 +1,9 @@
-* {
+html,body {
+    width: 100vw;
+    height: 100vh;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    background: linear-gradient(to bottom, rgba(51, 51, 163, 1) , rgba(18, 18, 18, 1) 65%) fixed;
+    overflow-x: hidden;
 }

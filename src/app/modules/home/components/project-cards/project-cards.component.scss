@@ -1,0 +1,40 @@
+@import url(https://db.onlinewebfonts.com/c/961a181da27e7cbc072ec2fb5bbfe2a9?family=Circular+Std+Bold);
+
+.cards-container {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+  }
+
+  .card {
+    width: 150px;
+    background: #b3b3b32a;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    height: fit-content;
+    margin: 0rem 0.75rem;
+  }
+  
+  .card-img {
+    width: 100%;
+    border-radius: 0.35rem;
+ 
+  }
+  
+  .card-name {
+    margin: 0.25rem 0;
+    font-family: "Circular Std Bold";
+    color: white;
+  }
+  
+  .card-description {
+    font-family: "Circular Std Bold";
+    color: white;
+    margin: 0;
+    font-size: 0.8rem;
+    opacity: 0.5;
+  }
+  
+ 

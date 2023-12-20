@@ -1,1 +1,9 @@
-<p>project-cards works!</p>
+<link href="https://db.onlinewebfonts.com/c/961a181da27e7cbc072ec2fb5bbfe2a9?family=Circular+Std+Bold" rel="stylesheet">
+
+<div class="cards-container">
+    <div class="card">        
+      <ng-content class="card-img"></ng-content>
+      <p class="card-name">{{ projectName }}</p>
+      <p class="card-description">{{ technologies }}</p>
+    </div>
+</div>

@@ -2,7 +2,7 @@
 
 .cards-container {
     display: flex;
-    gap: 0.5rem;
+    gap: 2rem;
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
@@ -10,11 +10,11 @@
 
   .card {
     width: 150px;
-    background: #b3b3b32a;
-    padding: 0.75rem;
+    background: #33333369;
+    padding: 0.9rem;
     border-radius: 0.5rem;
     height: fit-content;
-    margin: 0rem 0.75rem;
+    margin: 0rem 0.95rem;
   }
   
   .card-img {
@@ -24,7 +24,7 @@
   }
   
   .card-name {
-    margin: 0.25rem 0;
+    margin: 0.90rem 0;
     font-family: "Circular Std Bold";
     color: white;
   }
@@ -32,7 +32,7 @@
   .card-description {
     font-family: "Circular Std Bold";
     color: white;
-    margin: 0;
+    margin-bottom: 3%;
     font-size: 0.8rem;
     opacity: 0.5;
   }

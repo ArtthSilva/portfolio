@@ -13,6 +13,7 @@ import { LucideAngularModule, ChevronLeft,ChevronRight, Home, Search } from 'luc
 import { ButtonPerfilComponent } from './components/button-perfil/button-perfil.component';
 import { TopicsButtonsComponent } from './components/topics-buttons/topics-buttons.component';
 import { ProjectCardsComponent } from './components/project-cards/project-cards.component';
+import { ProjectsSectionHomeComponent } from './components/projects-section-home/projects-section-home.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { ProjectCardsComponent } from './components/project-cards/project-cards.
     NavbarComponent,
     ButtonPerfilComponent,
     TopicsButtonsComponent,
-    ProjectCardsComponent
+    ProjectCardsComponent,
+    ProjectsSectionHomeComponent
   ],
   imports: [
     CommonModule,

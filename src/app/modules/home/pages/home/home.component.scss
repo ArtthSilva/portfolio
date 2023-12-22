@@ -1,16 +1,25 @@
 :host{
+ 
     display: flex;
-
     width: 100vw;
     height: 100vh;
     margin: 0;
+    border: 0;
    }
-
-
+ 
 
  .routes-container{
-    width: 100vw;
-    height: 100vh;
+    width: 77vw; 
+    margin-left: 23.51%;
+    min-height: 100vh;
+ }
+
+ #sidebar{
+ width: 23.6vw;
+ min-width: 23.2vw;
+  min-height: 100%;
+  position: absolute;
+   
  }
 
  .footer{

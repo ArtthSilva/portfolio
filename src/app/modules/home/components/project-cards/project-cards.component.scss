@@ -9,12 +9,13 @@
   }
 
   .card {
-    width: 150px;
+    width: 12vw;
+    min-width: 110px;
     background: #33333369;
     padding: 0.9rem;
     border-radius: 0.5rem;
     height: fit-content;
-    margin: 0rem 0.95rem;
+    margin: 0rem 1.05rem;
   }
   
   .card-img {

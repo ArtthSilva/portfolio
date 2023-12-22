@@ -8,9 +8,14 @@
     box-sizing: border-box;
 }
 
+ 
+
+
 :host{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
+    overflow-y: auto;
+ 
 }
 
 .greeting{
@@ -21,6 +26,8 @@
     padding-top: 0.9%;
     
 }
+
+ 
 
 .img-topic{
         overflow: hidden;
@@ -56,7 +63,7 @@ h2{
 .project-cards{
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 9%;
+    padding-bottom: 11%;
  
  
 }

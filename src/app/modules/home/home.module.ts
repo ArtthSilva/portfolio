@@ -14,6 +14,8 @@ import { ButtonPerfilComponent } from './components/button-perfil/button-perfil.
 import { TopicsButtonsComponent } from './components/topics-buttons/topics-buttons.component';
 import { ProjectCardsComponent } from './components/project-cards/project-cards.component';
 import { ProjectsSectionHomeComponent } from './components/projects-section-home/projects-section-home.component';
+import { ProjectsPageComponent } from './components/projects-page/projects-page.component';
+import { TopicDescriptionComponent } from './components/topic-description/topic-description.component';
 
 
 @NgModule({
@@ -28,7 +30,9 @@ import { ProjectsSectionHomeComponent } from './components/projects-section-home
     ButtonPerfilComponent,
     TopicsButtonsComponent,
     ProjectCardsComponent,
-    ProjectsSectionHomeComponent
+    ProjectsSectionHomeComponent,
+    ProjectsPageComponent,
+    TopicDescriptionComponent
   ],
   imports: [
     CommonModule,

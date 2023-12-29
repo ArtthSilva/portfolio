@@ -1,0 +1,55 @@
+@import '../../../../dist/scss/variables.scss';
+@import url('https://db.onlinewebfonts.com/c/961a181da27e7cbc072ec2fb5bbfe2a9?family=Circular+Std+Bold');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,500;9..40,700&family=Montserrat:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+}
+.playlist-container{
+    display: flex;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+ 
+.album-img{
+    width: 13vw;
+    min-width: 130px;
+    border-radius: 10px; 
+}
+
+.description{
+    margin-left: 2%;
+}
+
+h2{
+    margin: 0%;
+    font-size: 5rem;
+    color: $white-color;
+    font-family: "Circular Std Bold";
+
+}
+
+h4{
+    color: $white-color;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    opacity: 95%;
+    margin-bottom: 2%;
+}
+
+p{
+    color: $white-color;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    opacity: 95%;
+    margin-top: 5%;
+    font-size: 0.90rem;
+
+}

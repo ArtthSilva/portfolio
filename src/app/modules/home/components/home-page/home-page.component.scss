@@ -53,7 +53,7 @@ h2{
     padding-left: 2%;
 
 }
-a{
+#see-all{
     font-family: "Circular Std Bold";
     font-size: 1.02rem;
     color: #ADADAD;
@@ -61,8 +61,12 @@ a{
     text-decoration: none;
 }
 
-a:hover{
+#see-all:hover{
   text-decoration: underline;
+}
+
+a{
+  text-decoration: none;
 }
 
 .subtitle{

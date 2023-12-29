@@ -15,11 +15,13 @@
     >
     <img class="img-topic" src="../../../../../assets/images/no-repeat.svg" alt="">
 </app-topics-buttons>
-    <app-topics-buttons class="button"
+    <a routerLink="/projetos">
+        <app-topics-buttons class="button"
     [descricao]="'Projetos'"
     >
     <img class="img-topic" src="../../../../../assets/images/projetos-album.svg" alt="">
 </app-topics-buttons>
+    </a>
     <app-topics-buttons class="button"
     [descricao]="'Músicas Curtidas'"
     >
@@ -30,7 +32,7 @@
 <div class="subtitle">
     
     <h2>Feitos para você</h2>  
-    <a href="http://">Mostrar tudo </a> 
+    <a id="see-all" routerLink="/projetos">Mostrar tudo </a> 
 
 </div>
 

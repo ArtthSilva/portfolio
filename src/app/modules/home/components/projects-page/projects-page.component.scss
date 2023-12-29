@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: linear-gradient(to bottom, #6EA6EA ,   rgba(18, 18, 18, 1) 65%) fixed;
 
 }
 
@@ -11,4 +10,12 @@
     height: 100vh;
     overflow-y: auto;
  
+}
+
+#album-img{
+    width: 13vw;
+    min-width: 130px;
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-top: 2%;
 }

@@ -1,5 +1,15 @@
+<link href="https://db.onlinewebfonts.com/c/961a181da27e7cbc072ec2fb5bbfe2a9?family=Circular+Std+Bold" rel="stylesheet">
+
 <div class="main">
-    <ng-content></ng-content>
-    <h2>{{ topicName }}</h2>
-    <p>{{ description }}</p>
+    <div class="playlist-container">
+        <div class="album-img">
+            <ng-content></ng-content>
+        </div>
+        <div class="description">
+            <h4 id="playlist">Playlist</h4>
+            <h2>{{ topicName }}</h2>
+            <p>{{ description }}</p>
+        </div>
+    </div>
+
 </div>

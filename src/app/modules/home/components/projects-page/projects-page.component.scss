@@ -14,8 +14,28 @@
 
 #album-img{
     width: 13vw;
-    min-width: 130px;
+    min-width: 110px;
     border-radius: 10px;
     margin-left: 2%;
     margin-top: 2%;
 }
+
+#play{
+    min-width: 85px;
+    width: 7vw;
+}
+
+#heart{
+     width: 2.5vw;
+     min-width: 28px;
+     margin-left: 1.5%;
+ 
+}
+
+.play-container{
+    margin-top: 3%;
+    margin-left: 1%;
+    display: flex;
+    align-items: center;
+}
+

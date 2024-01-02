@@ -16,6 +16,7 @@ import { ProjectCardsComponent } from './components/project-cards/project-cards.
 import { ProjectsSectionHomeComponent } from './components/projects-section-home/projects-section-home.component';
 import { ProjectsPageComponent } from './components/projects-page/projects-page.component';
 import { TopicDescriptionComponent } from './components/topic-description/topic-description.component';
+import { ProjectTableComponent } from './components/project-table/project-table.component';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { TopicDescriptionComponent } from './components/topic-description/topic-
     ProjectCardsComponent,
     ProjectsSectionHomeComponent,
     ProjectsPageComponent,
-    TopicDescriptionComponent
+    TopicDescriptionComponent,
+    ProjectTableComponent
   ],
   imports: [
     CommonModule,

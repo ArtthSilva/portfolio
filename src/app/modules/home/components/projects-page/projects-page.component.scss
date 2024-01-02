@@ -39,3 +39,38 @@
     align-items: center;
 }
 
+.project-img{
+    width: 50px;
+    border-radius: 5px;
+}
+
+#teste{
+    display: flex;
+    justify-items: left;
+}
+ 
+ 
+li{
+    color: white;
+}
+
+td,p{
+    color: white;
+     font-family: "Circular Std Bold";
+}
+
+ 
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  ol {
+    list-style-position: inside;
+  }

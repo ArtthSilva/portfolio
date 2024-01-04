@@ -19,14 +19,15 @@
         <lucide-icon class="icon" name="search"></lucide-icon>
         </app-left-button>
 
-
-        <app-left-button 
-        [descricao]="'Projetos'"
-        [selected]="menuSelected === 'Projetos'" 
-        (click)="buttonClick('Projetos')"
-        >
-            <img src="../../../../../assets/images/biblioteca-icon.png" alt="">      
-        </app-left-button>
+        <a routerLink="/projetos">
+            <app-left-button 
+            [descricao]="'Projetos'"
+            [selected]="menuSelected === 'Projetos'" 
+            (click)="buttonClick('Projetos')"
+            >
+                <img src="../../../../../assets/images/biblioteca-icon.png" alt="">      
+            </app-left-button>
+        </a>
 
         <app-left-button 
         [descricao]="'Músicas Curtidas'"

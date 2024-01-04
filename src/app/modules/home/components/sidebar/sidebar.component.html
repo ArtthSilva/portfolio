@@ -1,45 +1,38 @@
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
 <div class="main">
     <section class="primary-topics">
-        <app-left-button 
-        [descricao]="'Início'" 
-        [selected]="menuSelected === 'Início'" 
-        (click)="buttonClick('Início')"   
-        >
-        <lucide-icon class="icon" name="home"></lucide-icon>
-        </app-left-button>
+
+        <a routerLink="/home">
+            <app-left-button [descricao]="'Início'" [selected]="menuSelected === 'Início'"
+                (click)="buttonClick('Início')">
+                <lucide-icon class="icon" name="home"></lucide-icon>
+            </app-left-button>
+
+        </a>
 
 
-        <app-left-button 
-        [descricao]="'Sobre mim'" 
-        [selected]="menuSelected === 'Sobre mim'" 
-        (click)="buttonClick('Sobre mim')"  
-        >
-        <lucide-icon class="icon" name="search"></lucide-icon>
+        <app-left-button [descricao]="'Sobre mim'" [selected]="menuSelected === 'Sobre mim'"
+            (click)="buttonClick('Sobre mim')">
+            <lucide-icon class="icon" name="search"></lucide-icon>
         </app-left-button>
 
         <a routerLink="/projetos">
-            <app-left-button 
-            [descricao]="'Projetos'"
-            [selected]="menuSelected === 'Projetos'" 
-            (click)="buttonClick('Projetos')"
-            >
-                <img src="../../../../../assets/images/biblioteca-icon.png" alt="">      
+            <app-left-button [descricao]="'Projetos'" [selected]="menuSelected === 'Projetos'"
+                (click)="buttonClick('Projetos')">
+                <img src="../../../../../assets/images/biblioteca-icon.png" alt="">
             </app-left-button>
         </a>
 
-        <app-left-button 
-        [descricao]="'Músicas Curtidas'"
-        [selected]="menuSelected === 'Músicas Curtidas'" 
-        (click)="buttonClick('Músicas Curtidas')"
-        >
-           <img id="linked-songs-img" src="../../../../../assets/images/Liked-Songs.svg" alt="">
-       </app-left-button>
-        
-     </section>
-    
-    
+        <app-left-button [descricao]="'Músicas Curtidas'" [selected]="menuSelected === 'Músicas Curtidas'"
+            (click)="buttonClick('Músicas Curtidas')">
+            <img id="linked-songs-img" src="../../../../../assets/images/Liked-Songs.svg" alt="">
+        </app-left-button>
+
+    </section>
+
+
     <section class="second-topics">
         <a href="https://www.linkedin.com/in/arthur-silvap" target="_blank" rel="noopener noreferrer">
             <button>
@@ -49,12 +42,12 @@
         </a>
 
         <a href="https://github.com/ArtthSilva" target="_blank" rel="noopener noreferrer">
-            <button>            
+            <button>
                 <img id="github-img" src="../../../../../assets/images/github-mark-white.svg" alt="">
                 <span>Gihub</span>
             </button>
         </a>
-    </section> 
+    </section>
 
     <button>
         <img id="linked-songs-img" src="../../../../../assets/images/baixar-icon.svg" alt="">

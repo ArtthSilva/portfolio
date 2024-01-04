@@ -12,7 +12,6 @@
 
         </a>
 
-
         <app-left-button [descricao]="'Sobre mim'" [selected]="menuSelected === 'Sobre mim'"
             (click)="buttonClick('Sobre mim')">
             <lucide-icon class="icon" name="search"></lucide-icon>
@@ -25,13 +24,14 @@
             </app-left-button>
         </a>
 
-        <app-left-button [descricao]="'Músicas Curtidas'" [selected]="menuSelected === 'Músicas Curtidas'"
+        <a routerLink="/liked-musics">
+            <app-left-button [descricao]="'Músicas Curtidas'" [selected]="menuSelected === 'Músicas Curtidas'"
             (click)="buttonClick('Músicas Curtidas')">
             <img id="linked-songs-img" src="../../../../../assets/images/Liked-Songs.svg" alt="">
         </app-left-button>
+        </a>
 
     </section>
-
 
     <section class="second-topics">
         <a href="https://www.linkedin.com/in/arthur-silvap" target="_blank" rel="noopener noreferrer">

@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,500;9..40,700&family=Montserrat:wght@500&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    background: linear-gradient(to bottom, #67a1e9 ,   rgba(18, 18, 18, 1) 50%) fixed;
 }
 
 :host {
@@ -55,24 +56,29 @@
 }
 
 #img{
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 li {
     color: white;
 }
 
-td,
+th,
 p {
     color: white;
     font-family: "Circular Std Bold";
 }
-
+ 
+td{
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
 
 table {
     border-collapse: collapse;
     width: 100%;
     margin-left: 2%;
+    margin-right: 2%;
  }
 
 th,
@@ -81,17 +87,19 @@ td {
     text-align: left;
     color: white;
     align-items: center;
- 
- 
 }
-
-ol {
-    list-style-position: inside;
-}
+ 
+ td{
+    margin-top: 2.5%;
+ }
 
 .projects-table{
     padding-bottom: 13%;
+    width: 90%;
 }
  
-
+th:nth-child(1), th:nth-child(2),th:nth-child(3), th:nth-child(4) {
+    border-bottom: 0.2px outset rgba(255, 255, 255, 0.219);
+   }
+   
  

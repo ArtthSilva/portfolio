@@ -16,6 +16,7 @@ import { ProjectCardsComponent } from './components/project-cards/project-cards.
 import { ProjectsSectionHomeComponent } from './components/projects-section-home/projects-section-home.component';
 import { ProjectsPageComponent } from './components/projects-page/projects-page.component';
 import { TopicDescriptionComponent } from './components/topic-description/topic-description.component';
+import { LikedMusicPageComponent } from './components/liked-music-page/liked-music-page.component';
 
 
 @NgModule({
@@ -33,6 +34,7 @@ import { TopicDescriptionComponent } from './components/topic-description/topic-
     ProjectsSectionHomeComponent,
     ProjectsPageComponent,
     TopicDescriptionComponent,
+    LikedMusicPageComponent,
   ],
   imports: [
     CommonModule,

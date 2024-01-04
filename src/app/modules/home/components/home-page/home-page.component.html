@@ -10,11 +10,13 @@
     >
     <img class="img-topic" src="../../../../../assets/images/pagodeira2.svg" alt="">
 </app-topics-buttons>
+
     <app-topics-buttons class="button"
     [descricao]="'Tecnologias'"
     >
     <img class="img-topic" src="../../../../../assets/images/no-repeat.svg" alt="">
 </app-topics-buttons>
+
     <a routerLink="/projetos">
         <app-topics-buttons class="button"
     [descricao]="'Projetos'"
@@ -22,11 +24,16 @@
     <img class="img-topic" src="../../../../../assets/images/projetos-album.svg" alt="">
 </app-topics-buttons>
     </a>
-    <app-topics-buttons class="button"
-    [descricao]="'Músicas Curtidas'"
-    >
-    <img class="img-topic" src="../../../../../assets/images/linked-songs.svg" alt="">
-</app-topics-buttons>
+    
+    <a routerLink="/liked-musics">
+        <app-topics-buttons class="button"
+        [descricao]="'Músicas Curtidas'"
+        >
+        <img class="img-topic" src="../../../../../assets/images/linked-songs.svg" alt="">
+    </app-topics-buttons>
+    </a>
+
+ 
 </div>
 
 <div class="subtitle">

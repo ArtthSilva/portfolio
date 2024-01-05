@@ -4,6 +4,7 @@ import { HomeComponent } from './modules/home/pages/home/home.component';
 import { HomePageComponent } from './modules/home/components/home-page/home-page.component';
 import { ProjectsPageComponent } from './modules/home/components/projects-page/projects-page.component';
 import { LikedMusicPageComponent } from './modules/home/components/liked-music-page/liked-music-page.component';
+import { TechnologiesPageComponent } from './modules/home/components/technologies-page/technologies-page.component';
 
 const routes: Routes = [
   {path: "page", component: HomeComponent,
@@ -16,12 +17,15 @@ const routes: Routes = [
     },
     {
       path: 'liked-musics', component: LikedMusicPageComponent
+    },
+    {
+      path: 'technologies', component: TechnologiesPageComponent
     }
   ]
 },
 {
-  path: '', // Rota vazia
-  redirectTo: '/page/home', // Redireciona para a rota do componente filho por padrão
+  path: '', 
+  redirectTo: '/page/home', 
   pathMatch: 'full',
 },
 ];

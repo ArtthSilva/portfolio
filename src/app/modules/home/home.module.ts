@@ -17,6 +17,7 @@ import { ProjectsSectionHomeComponent } from './components/projects-section-home
 import { ProjectsPageComponent } from './components/projects-page/projects-page.component';
 import { TopicDescriptionComponent } from './components/topic-description/topic-description.component';
 import { LikedMusicPageComponent } from './components/liked-music-page/liked-music-page.component';
+import { TechnologiesPageComponent } from './components/technologies-page/technologies-page.component';
 
 
 @NgModule({
@@ -35,6 +36,7 @@ import { LikedMusicPageComponent } from './components/liked-music-page/liked-mus
     ProjectsPageComponent,
     TopicDescriptionComponent,
     LikedMusicPageComponent,
+    TechnologiesPageComponent,
   ],
   imports: [
     CommonModule,

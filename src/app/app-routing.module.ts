@@ -6,8 +6,8 @@ import { ProjectsPageComponent } from './modules/home/components/projects-page/p
 import { LikedMusicPageComponent } from './modules/home/components/liked-music-page/liked-music-page.component';
 
 const routes: Routes = [
-  {path: "", component: HomeComponent,
-  children: [
+  {path: "page", component: HomeComponent,
+   children: [
     {
       path: 'home', component: HomePageComponent,      
     },
@@ -17,9 +17,13 @@ const routes: Routes = [
     {
       path: 'liked-musics', component: LikedMusicPageComponent
     }
- 
   ]
-}
+},
+{
+  path: '', // Rota vazia
+  redirectTo: '/page/home', // Redireciona para a rota do componente filho por padrão
+  pathMatch: 'full',
+},
 ];
 
 @NgModule({

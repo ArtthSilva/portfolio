@@ -4,7 +4,7 @@
 <div class="main">
     <section class="primary-topics">
 
-        <a routerLink="/home">
+        <a routerLink="/page/home">
             <app-left-button [descricao]="'Início'" [selected]="menuSelected === 'Início'"
                 (click)="buttonClick('Início')">
                 <lucide-icon class="icon" name="home"></lucide-icon>
@@ -17,14 +17,14 @@
             <lucide-icon class="icon" name="search"></lucide-icon>
         </app-left-button>
 
-        <a routerLink="/projetos">
+        <a routerLink="/page/projetos">
             <app-left-button [descricao]="'Projetos'" [selected]="menuSelected === 'Projetos'"
                 (click)="buttonClick('Projetos')">
                 <img src="../../../../../assets/images/biblioteca-icon.png" alt="">
             </app-left-button>
         </a>
 
-        <a routerLink="/liked-musics">
+        <a routerLink="/page/liked-musics">
             <app-left-button [descricao]="'Músicas Curtidas'" [selected]="menuSelected === 'Músicas Curtidas'"
             (click)="buttonClick('Músicas Curtidas')">
             <img id="linked-songs-img" src="../../../../../assets/images/Liked-Songs.svg" alt="">

@@ -21,6 +21,27 @@ export const projects: Project[] = [
         criar uma plataforma de aprendizado única. O objetivo é tornar o aprendizado da filosofia mais acessível, 
         envolvente e divertido, conectando estudantes e entusiastas da filosofia com pensadores clássicos e suas 
         ideias`
+    },
+        {
+        id: 3,
+        title: 'Cardápio Digital',
+        description: `Solução back-end robusta focada na gestão eficiente de dados, promovendo a integração e manipulação 
+        dinâmica das informações. A implementação inclui a utilização de tecnologias como JPA para mapeamento 
+        objeto-relacional, o gerenciador de projetos Maven para automação e o banco de dados PostgreSQL para 
+        assegurar uma base sólida e escalável.
+        `
+    },
+        {
+        id: 4,
+        title: 'ClimApp',
+        description: `Aplicação mobile que mostra a temperatura, clima e vento atual do país solicitado utilizando a api da OpenWeatherMap
+        `
+    },
+        {
+        id: 5,
+        title: 'ByJampa',
+        description: `site desenvolvido em grupo com o objetivo de fornecer informações detalhadas e relevantes sobre os pontos turísticos mais incríveis em João Pessoa, Brasil.
+        `
     }
 
     

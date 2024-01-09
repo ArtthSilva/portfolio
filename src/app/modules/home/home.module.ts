@@ -18,6 +18,7 @@ import { ProjectsPageComponent } from './components/projects-page/projects-page.
 import { TopicDescriptionComponent } from './components/topic-description/topic-description.component';
 import { LikedMusicPageComponent } from './components/liked-music-page/liked-music-page.component';
 import { TechnologiesPageComponent } from './components/technologies-page/technologies-page.component';
+import { ProjectsDetailsComponent } from './components/projects-details/projects-details.component';
 
 
 @NgModule({
@@ -37,6 +38,7 @@ import { TechnologiesPageComponent } from './components/technologies-page/techno
     TopicDescriptionComponent,
     LikedMusicPageComponent,
     TechnologiesPageComponent,
+    ProjectsDetailsComponent,
   ],
   imports: [
     CommonModule,

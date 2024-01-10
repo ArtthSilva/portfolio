@@ -6,6 +6,7 @@ import { ProjectsPageComponent } from './modules/home/components/projects-page/p
 import { LikedMusicPageComponent } from './modules/home/components/liked-music-page/liked-music-page.component';
 import { TechnologiesPageComponent } from './modules/home/components/technologies-page/technologies-page.component';
 import { ProjectsDetailsComponent } from './modules/home/components/projects-details/projects-details.component';
+import { AboutmePageComponent } from './modules/home/components/aboutme-page/aboutme-page.component';
 
 const routes: Routes = [
   {path: "page", component: HomeComponent,
@@ -24,6 +25,9 @@ const routes: Routes = [
     },
     {
       path: 'project-details/:id', component: ProjectsDetailsComponent
+    },
+    {
+      path: 'about', component: AboutmePageComponent
     }
   ]
 },

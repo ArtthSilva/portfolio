@@ -19,6 +19,7 @@ import { TopicDescriptionComponent } from './components/topic-description/topic-
 import { LikedMusicPageComponent } from './components/liked-music-page/liked-music-page.component';
 import { TechnologiesPageComponent } from './components/technologies-page/technologies-page.component';
 import { ProjectsDetailsComponent } from './components/projects-details/projects-details.component';
+import { AboutmePageComponent } from './components/aboutme-page/aboutme-page.component';
 
 
 @NgModule({
@@ -39,6 +40,7 @@ import { ProjectsDetailsComponent } from './components/projects-details/projects
     LikedMusicPageComponent,
     TechnologiesPageComponent,
     ProjectsDetailsComponent,
+    AboutmePageComponent,
   ],
   imports: [
     CommonModule,

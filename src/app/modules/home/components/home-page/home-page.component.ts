@@ -30,7 +30,7 @@ export class HomePageComponent {
  ngOnInit() {
   setInterval(() => {
       this.getGreeting();
-  }, 1000);
+  }, 100);
 }
 
 }

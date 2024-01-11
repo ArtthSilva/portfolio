@@ -12,10 +12,12 @@
 
         </a>
 
-        <app-left-button [descricao]="'Sobre mim'" [selected]="menuSelected === 'Sobre mim'"
+        <a routerLink="/page/about">
+            <app-left-button [descricao]="'Sobre mim'" [selected]="menuSelected === 'Sobre mim'"
             (click)="buttonClick('Sobre mim')">
             <lucide-icon class="icon" name="search"></lucide-icon>
         </app-left-button>
+        </a>
 
         <a routerLink="/page/projetos">
             <app-left-button [descricao]="'Projetos'" [selected]="menuSelected === 'Projetos'"
@@ -44,13 +46,13 @@
         <a href="https://github.com/ArtthSilva" target="_blank" rel="noopener noreferrer">
             <button>
                 <img id="github-img" src="../../../../../assets/images/github-mark-white.svg" alt="">
-                <span>Gihub</span>
+                <span>GitHub</span>
             </button>
         </a>
     </section>
 
     <button>
-        <img id="linked-songs-img" src="../../../../../assets/images/baixar-icon.svg" alt="">
+        <lucide-icon id="donwload" name="download"></lucide-icon>
         <span>Baixar Currículo</span>
     </button>
 </div>

@@ -84,3 +84,14 @@ button{
 a{
     text-decoration: none;
 }
+
+@media only screen and (max-width: 600px) {
+    .icon, lucide-icon, img{
+        display: none;
+    }
+ }
+ lucide-icon{
+    color: white;
+    margin-right: 5%;
+}
+ 

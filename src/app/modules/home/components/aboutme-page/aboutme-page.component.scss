@@ -36,33 +36,39 @@ $xx-large: 36px;
 $xxx-large: 52px;
 
 
-h4{
+h4 {
     margin: 0;
     font-family: 'Circular Std Bold', sans-serif;
-
 }
 
-h5{
+h3 {
+    font-family: 'Circular Std Bold', sans-serif;
+    color: $white;
+}
+
+h5 {
     font-family: 'Circular Std Bold', sans-serif;
     font-size: x-small;
 }
 
-p{
+p {
     font-family: 'Circular Std Bold', sans-serif;
     color: white;
+    font-weight: 200;
 }
-.about{
-    width: 70%;
-    margin-left: 2%;
+
+.about {
+    width: 100%;
 }
+
 // ===== Styles ==== //
 
 .main {
-    background: #3F3C35;
-    background: linear-gradient(to bottom, #3F3C35,   rgba(18, 18, 18, 1) 15%) fixed; 
+    background: linear-gradient(to bottom, #3F3C35, rgb(12, 12, 12) 15%) fixed;
 
     font-family: 'Circular Std Bold', sans-serif;
     font-family: 'Montserrat', sans-serif;
+
     a {
         color: $grey;
 
@@ -81,19 +87,16 @@ p{
         display: flex;
         flex-flow: row wrap;
         align-items: center;
-    } 
+    }
 
     &__info {
 
         img {
-
             max-width: 30px;
             max-height: 30px;
             border-radius: 50%;
             display: inline-block;
-
         }
-
     }
 
     &__actions {
@@ -108,45 +111,35 @@ p{
             border: none;
 
             &:before {
-
                 position: absolute;
                 top: -30px;
                 right: 7px;
                 color: $light-black;
                 font-size: $xx-large;
-            } 
+            }
         }
-
     }
-
-} 
+}
 
 .content {
-
     & {
         display: flex;
         flex-flow: row wrap;
     }
-
-
     &__middle {
         width: 100%;
     }
- 
-    @media (max-width: 1400px) {
 
+    @media (max-width: 1400px) {
         &__left {
             width: 20%;
         }
-
         &__middle {
             width: 100%;
         }
-
         &__right {
             display: none;
         }
-
     }
 
     @media (max-width: 768px) {
@@ -158,11 +151,15 @@ p{
         &__middle {
             width: 100%;
         }
-
     }
-
 }
- 
+
+@media (min-width: 768px) {
+    .about{
+        margin-left: 1%;
+        width: 97%;
+    }
+}
 
 .artist {
 
@@ -197,7 +194,7 @@ p{
             height: 100%;
             z-index: 0;
             opacity: 0.25;
-            background-image: url(../../../../../assets/images/perfil-img.jpeg);
+            background-image: url("../../../../../assets/images/perfil-img.jpeg");
 
             background-repeat: no-repeat;
             background-size: cover;
@@ -242,9 +239,7 @@ p{
                 font-size: $xx-large;
                 font-weight: 100;
                 margin-bottom: 13%;
-             }
-
-
+            }
         }
 
         .artist__listeners {
@@ -263,11 +258,19 @@ p{
                 font-size: 12px;
                 letter-spacing: 1px;
             }
-        } 
-    } 
+        }
+    }
 }
 
 @media (max-width: 768px) {
+    .about {
+        text-align: center;
+        width: 96%;
+    }
+
+    p {
+        text-align: center;
+    }
 
     .artist {
         overflow-y: auto;
@@ -280,7 +283,7 @@ p{
     .artist {
 
         &__header {
- 
+
             flex-flow: column wrap;
 
             .artist__info {
@@ -298,8 +301,6 @@ p{
                 .profile__img {
                     margin-right: 0;
                 }
- 
-
             }
 
             .artist__listeners {

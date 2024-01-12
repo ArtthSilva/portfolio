@@ -3,7 +3,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
- }
+}
+
+.main{
+    background: linear-gradient(to bottom, #67a1e9 ,   rgba(18, 18, 18, 1) 50%) fixed;
+
+}
 
 :host {
     width: 100vw;
@@ -18,6 +23,10 @@
     border-radius: 10px;
     margin-left: 2%;
     margin-top: 2%;
+}
+
+tr{
+    cursor: pointer;
 }
 
 #play {
@@ -88,6 +97,7 @@ td {
     align-items: center;
 
 }
+
  
  td{
     margin-top: 2.5%;

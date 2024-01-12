@@ -3,13 +3,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: linear-gradient(to bottom, #67a1e9 ,   rgba(18, 18, 18, 1) 50%) fixed;
-}
+ }
 
 :host {
     width: 100vw;
     height: 100vh;
     overflow-y: auto;
+
+}
+
+.main{
+    background: linear-gradient(to bottom, #1F3161, rgb(12, 12, 12) 75%) fixed;
 
 }
 
@@ -89,7 +93,6 @@ td {
     align-items: center;
 
 }
-
  
  td{
     margin-top: 2.5%;

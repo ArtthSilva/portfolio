@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './modules/home/pages/home/home.component';
-import { HomePageComponent } from './modules/home/components/home-page/home-page.component';
-import { ProjectsPageComponent } from './modules/home/components/projects-page/projects-page.component';
-import { LikedMusicPageComponent } from './modules/home/components/liked-music-page/liked-music-page.component';
-import { TechnologiesPageComponent } from './modules/home/components/technologies-page/technologies-page.component';
-import { ProjectsDetailsComponent } from './modules/home/components/projects-details/projects-details.component';
-import { AboutmePageComponent } from './modules/home/components/aboutme-page/aboutme-page.component';
+import { HomePageComponent } from './modules/home/pages/home-page/home-page.component';
+import { ProjectsPageComponent } from './modules/home/pages/projects-page/projects-page.component';
+import { LikedMusicPageComponent } from './modules/home/pages/liked-music-page/liked-music-page.component';
+import { TechnologiesPageComponent } from './modules/home/pages/technologies-page/technologies-page.component';
+import { ProjectsDetailsComponent } from './modules/home/pages/projects-details/projects-details.component';
+import { AboutmePageComponent } from './modules/home/pages/aboutme-page/aboutme-page.component';
 
 const routes: Routes = [
   {path: "page", component: HomeComponent,

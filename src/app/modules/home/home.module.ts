@@ -5,7 +5,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { LeftButtonComponent } from './components/left-button/left-button.component';
 import { MusicBarComponent } from './components/music-bar/music-bar.component';
-import { HomePageComponent } from './components/home-page/home-page.component';
+import { HomePageComponent } from './pages/home-page/home-page.component';
 import { AppRoutingModule } from 'src/app/app-routing.module';
 import { NavbarComponent } from './components/navbar/navbar.component';
 
@@ -14,12 +14,12 @@ import { ButtonPerfilComponent } from './components/button-perfil/button-perfil.
 import { TopicsButtonsComponent } from './components/topics-buttons/topics-buttons.component';
 import { ProjectCardsComponent } from './components/project-cards/project-cards.component';
 import { ProjectsSectionHomeComponent } from './components/projects-section-home/projects-section-home.component';
-import { ProjectsPageComponent } from './components/projects-page/projects-page.component';
+import { ProjectsPageComponent } from './pages/projects-page/projects-page.component';
 import { TopicDescriptionComponent } from './components/topic-description/topic-description.component';
-import { LikedMusicPageComponent } from './components/liked-music-page/liked-music-page.component';
-import { TechnologiesPageComponent } from './components/technologies-page/technologies-page.component';
-import { ProjectsDetailsComponent } from './components/projects-details/projects-details.component';
-import { AboutmePageComponent } from './components/aboutme-page/aboutme-page.component';
+import { LikedMusicPageComponent } from './pages/liked-music-page/liked-music-page.component';
+import { TechnologiesPageComponent } from './pages/technologies-page/technologies-page.component';
+import { ProjectsDetailsComponent } from './pages/projects-details/projects-details.component';
+import { AboutmePageComponent } from './pages/aboutme-page/aboutme-page.component';
 
 
 @NgModule({

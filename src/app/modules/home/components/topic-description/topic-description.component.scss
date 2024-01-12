@@ -15,6 +15,30 @@
     margin-top: 2%;
 }
 
+@media (max-width: 522px) {
+    .playlist-container{
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        text-align: center;
+    }
+    #playlist{
+        display: none;
+    }
+
+    h2{
+        font-size: $xx-large;
+    }
+}
+
+@media (min-width: 768px) {
+    h2{
+        font-size: 3rem;
+    }
+}
+
+
+
  
 .album-img{
     width: 13vw;
@@ -28,10 +52,8 @@
 
 h2{
     margin: 0%;
-    font-size: 5rem;
-    color: $white-color;
+     color: $white-color;
     font-family: "Circular Std Bold";
-
 }
 
 h4{

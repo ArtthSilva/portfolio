@@ -17,6 +17,10 @@
  
 }
 
+app-project-cards{
+  cursor: pointer;
+}
+
 .greeting{
     font-family: "Circular Std Bold";
     font-size: 2rem;
@@ -127,5 +131,11 @@ a{
     margin-bottom: 3%;
     font-size: 0.8rem;
     opacity: 0.5;
+  }
+
+  @media screen and (max-width: 500px){
+    #see-all{
+      display: none;
+    }
   }
   

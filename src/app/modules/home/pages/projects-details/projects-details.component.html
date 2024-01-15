@@ -17,8 +17,10 @@
     
 
     <div class="play-container">
-        <img id="play" src="../../../../../assets/images/Play_github.svg" alt="">
-        <img id="heart" src="../../../../../assets/images/heart.svg" alt="">
+        <a [href]="project!.link" target="_blank" rel="noopener noreferrer">
+            <img id="play" src="../../../../../assets/images/Play_github.svg" alt="">
+        </a>
+         <img id="heart" src="../../../../../assets/images/heart.svg" alt="">
         <img id="option-points" src="../../../../../assets/images/Options-points.svg" alt="">        
     </div>
 
@@ -28,9 +30,4 @@
     </div>
 </div>
 
-<!-- <div>
-    <h1>{{ project!.title }}</h1>
-    <p>{{ project!.description }}</p>
-    <img [src]="project?.album" alt="{{ project!.title }}">
-   </div> -->
-   
+ 

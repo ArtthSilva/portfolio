@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,500;9..40,700&family=Montserrat:wght@500&display=swap');
+@import '../../../../dist/scss/variables.scss';
+
 * {
     margin: 0;
     padding: 0;
@@ -22,6 +24,21 @@
         display: none;
     }
 }
+ @media screen and (min-width: 768px) {
+    .stack{
+        display: none;
+    }
+}
+ 
+.stack,th,.info{
+    color: $unselected-color;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+ }
+ 
 
 #album-img {
     width: 13vw;

@@ -3,6 +3,7 @@ export interface Project{
     title: string;
     description: string;
     album: string;
+    link: string;
     
 }
 
@@ -14,7 +15,8 @@ export const projects: Project[] = [
         description: `Aplicação front-end interativa, proporcionando uma experiência dinâmica ao exibir itens. O usuário terá a 
         capacidade de escolher entre diferentes categorias e interagir de forma intuitiva na seleção de produtos, 
         promovendo uma experiência envolvente e personalizada`,
-        album: '../../../../../assets/images/cardapio-front-album.svg'
+        album: '../../../../../assets/images/cardapio-front-album.svg',
+        link: 'https://github.com/ArtthSilva/cardapio-digital-front'
     },
         {
         id: 2,
@@ -23,7 +25,8 @@ export const projects: Project[] = [
         criar uma plataforma de aprendizado única. O objetivo é tornar o aprendizado da filosofia mais acessível, 
         envolvente e divertido, conectando estudantes e entusiastas da filosofia com pensadores clássicos e suas 
         ideias`,
-        album: '../../../../../assets/images/philomatch-album.svg'
+        album: '../../../../../assets/images/philomatch-album.svg',
+        link: 'https://github.com/ArtthSilva/PhiloMatch'
     },
         {
         id: 3,
@@ -31,23 +34,25 @@ export const projects: Project[] = [
         description: `Solução back-end robusta focada na gestão eficiente de dados, promovendo a integração e manipulação 
         dinâmica das informações. A implementação inclui a utilização de tecnologias como JPA para mapeamento 
         objeto-relacional, o gerenciador de projetos Maven para automação e o banco de dados PostgreSQL para 
-        assegurar uma base sólida e escalável.
-        `,
-        album: '../../../../../assets/images/cardapio-back-album.svg'
+        assegurar uma base sólida e escalável.`,
+        album: '../../../../../assets/images/cardapio-back-album.svg',
+        link: 'https://github.com/ArtthSilva/cardapio-digital-back'
     },
         {
         id: 4,
         title: 'ClimApp',
         description: `Aplicação mobile que mostra a temperatura, clima e vento atual do país solicitado utilizando a api da OpenWeatherMap
         `,
-        album: '../../../../../assets/images/climApp-album.svg'
+        album: '../../../../../assets/images/climApp-album.svg',
+        link: 'https://github.com/ArtthSilva/climApp'
     },
         {
         id: 5,
         title: 'ByJampa',
         description: `site desenvolvido em grupo com o objetivo de fornecer informações detalhadas e relevantes sobre os pontos turísticos mais incríveis em João Pessoa, Brasil.
         `,
-        album: '../../../../../assets/images/byjampa-album.svg'
+        album: '../../../../../assets/images/byjampa-album.svg',
+        link: 'https://github.com/ArtthSilva/ByJampa'
     }
 
     

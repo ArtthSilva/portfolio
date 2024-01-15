@@ -37,6 +37,13 @@ app-project-cards{
         left: 0px;
 }
 
+@media screen and (max-width: 522px) {
+  .img-topic{
+    margin-right: 10px;
+
+  }
+}
+
 .main-button{
     display: flex;
     flex-wrap: wrap;
@@ -138,4 +145,10 @@ a{
       display: none;
     }
   }
+
+  @media (max-width: 522px) {
+    ng-content{
+       width: 80%;
+    }
+   }
   

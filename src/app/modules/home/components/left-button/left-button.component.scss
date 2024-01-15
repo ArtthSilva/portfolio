@@ -12,21 +12,14 @@ button{
     cursor: pointer; 
    
 
-    &.selected{
-        background-color: rgb(14, 14, 14);
-        span{
-            color: white;           
-        }
-    }
+ 
 }
 
 span{
-    color: $unselected-color;
+    color:whitesmoke;
     width: 20vw;
     text-align: left;
     padding-top: 5px;
     font-family: "Circular Std Bold";
     font-size: .9rem;
  }
-
- 

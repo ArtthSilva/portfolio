@@ -6,12 +6,13 @@
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
+    position: relative;
   }
 
   .card {
     width: 12vw;
     min-width: 85px;
-    background: #33333369;
+    background: #191919;
     padding: 0.9rem;
     border-radius: 0.5rem;
     height: fit-content;
@@ -22,7 +23,8 @@
     .card {
       margin-top: 3vh;
     }
-  }
+  } 
+   
   
   
   .card-img {
@@ -44,5 +46,25 @@
     font-size: 0.8rem;
     opacity: 0.5;
   }
+
+  .card:hover{
+    background: #252525;
+    #icon-play {
+      display: block;
+    }
+    transform: scale(1.05);
+    transition: .3s;
+  }
+
+  #icon-play {
+    display: none;
+     width: 5vw;
+     position: absolute;
+     right: 10%;
+     top: 45%;  
+}
+
+
   
+
  

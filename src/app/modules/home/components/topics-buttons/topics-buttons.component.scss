@@ -1,12 +1,12 @@
 @import '../../../../dist/scss/variables.scss';
 @import url(https://db.onlinewebfonts.com/c/961a181da27e7cbc072ec2fb5bbfe2a9?family=Circular+Std+Bold);
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-button{
+button {
     cursor: pointer;
     border: none;
     border-radius: 6px;
@@ -21,44 +21,47 @@ button{
 
 @media screen and (max-width: 600px) {
     button {
-     width: 45vw;
- 
-    }
-   }
+        width: 45vw;
 
-.img-title{
+    }
+}
+
+.img-title {
     align-items: center;
     text-align: center;
     align-items: center;
     display: flex;
 }
- 
-span{
+
+span {
     font-family: "Circular Std Bold";
     font-size: 0.85rem;
     color: $white-color;
-     width: 9vw;
-     margin-right: 1.6vw;
- 
+    width: 9vw;
+    margin-right: 1.6vw;
+
 }
 
-#icon-play{
+#icon-play {
     display: none;
     width: 4.5vw;
-   border: none;
+    border: none;
 }
 
 button:hover #icon-play {
     display: block;
 
-   }
+}
 
-   @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     button:hover #icon-play {
-     width: 10vw; 
-     span{
-        margin-right: 12vw;
+        width: 10vw;
+
+        span {
+            margin-right: 12vw;
+        }
     }
-    }    
-   }
-   
+}
+button:hover{
+    background: rgba(0, 0, 0, 0.76);
+}
